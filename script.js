@@ -5,12 +5,12 @@ slides.forEach(function (slide, index) {
   slide.style.left = `${index * 100}%`;
 });
 let counter = 0;
-nextBtn.addEventListener("click", function () {
+nextBtn.addEventListener("click",  () => {
   counter++;
   carousel();
 });
 
-prevBtn.addEventListener("click", function () {
+prevBtn.addEventListener("click", () => {
   counter--;
   carousel();
 });
